@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Formularios</title>
+    </head>
+    <body>
+        <h2>Formularios en HTML</h2>
+        <form>
+            Tu nombre: <input/>
+            Tu apellido: <input/>
+        </form>
+        <hr/>
+        <h2>Formularios con atributo Type</h2>
+        <form>
+            Nombre: <input type="text"/> <br/><br/>
+            Apellidos: <input type="text"/> <br/><br/>
+            Contraseña: <input type="password"> <br/><br/>
+            Casilla de verificación: <input type="checkbox"> <br/><br/>
+            Casilla de selección: <input type="radio"> <br/><br/>
+            Selección de archivo: <input type="file"> <br/><br/>
+            Botón de envío: <input type="submit">
+        </form>
+        <hr/>
+        <h2>Formularios desplegables</h2>
+        <form>
+            ELIGE UN COLOR: <select> <!--Se pueden agregar atributos size y multiple-->
+                <option>Blanco</option>
+                <option>Negro</option>
+                <option>Azul</option>
+                <option>Rojo</option>
+                <option>Verde</option>
+            </select>
+        </form>
+        <hr/>
+        <h2>Etiqueta textarea</h2>
+        <form name="miFormulario" action="https://www.wolfram.com/language/12/machine-learning-for-images/text-recognition-to-read-music-sheets.html.es?product=mathematica" method="POST">
+            Nombre:
+            <input name="nombre" type="text"> <br/><br/>
+            Correo electrónico:
+            <input name="correo" type="email"> <br/><br/>
+            Tu mensaje:
+            <textarea name="mensaje"> </textarea> <br/><br/>
+            <input type="submit" value="Enviar ahora"/>
+        </form>
+    </body>
+</html>
